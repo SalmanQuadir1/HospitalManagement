@@ -1,0 +1,147 @@
+.card2 {
+    height: 7rem;
+    width: 9rem !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    border: none !important;
+    box-shadow: 2px 2px 10px;
+    background-color: rgb(57, 110, 190) !important;
+
+}
+
+.card3 {
+    height: 4rem;
+    width: 13rem !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    border: none !important;
+    box-shadow: 2px 2px 10px;
+    background-color: rgb(57, 110, 190) !important;
+
+}
+
+.card3 h5 {
+    font-size: 14px;
+    color: white;
+
+}
+
+.col {
+    width: 13% !important;
+}
+
+.card1 {
+    height: 6rem;
+    width: 9rem !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 4% !important;
+    background-color: white !important;
+    border: none !important;
+    box-shadow: 2px 2px 10px;
+    font-size: 12px;
+
+}
+
+.card4 {
+    height: 4rem;
+    width: 13rem !important;
+    border: none !important;
+    box-shadow: 2px 2px 10px;
+}
+
+.card4 h6 {
+    font-size: 12px;
+}
+
+
+.card1 .p {
+    color: rgb(71, 69, 69) !important;
+
+}
+
+.card2 h6 {
+    color: white !important;
+    font-size: 14px;
+}
+
+/* oncology Drugs starts here */
+.card5 {
+    /* border: 1px solid black !important; */
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card5 table {
+    width: 100%;
+}
+
+.card5 table td {
+    padding: 4px;
+    border-bottom: 1px solid rgb(143, 138, 138);
+
+}
+
+.card5 table td:first-child {
+    font-weight: bold;
+}
+
+.wid {
+    height: 1rem !important;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+@media (min-width: 768px) {
+    .gt {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card5 {
+        flex-basis: calc(30% - 20px);
+    }
+}
+
+.genTable tr th {
+    width: 15rem;
+    font-size: small;
+
+}
+
+.genTable tr td {
+    font-size: small;
+
+}
+
+/* Oncology Diagnostic */
+.row-onc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-onc {
+    flex: 0 0 calc(100% / 7);
+    max-width: calc(100% / 7);
+    margin-bottom: 10px;
+}
+
+/* Media query for screens smaller than 768px */
+@media only screen and (max-width: 768px) {
+    .row-onc {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .col-onc {
+        flex: 0 0 auto;
+        max-width: none;
+    }
+}
