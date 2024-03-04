@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const Header = () => {
+    const [activeLink, setActiveLink] = useState('');
+
+    const handleSetActiveLink = (link) => {
+        setActiveLink(link);
+    };
     return (
         <div className="container-fluid sticky-top px-0">
             <div className="container-fluid topbar bg-dark d-none d-lg-block">
@@ -83,10 +88,14 @@ const Header = () => {
                             id="navbarCollapse"
                         >
                             <div className="navbar-nav mx-auto border-top">
-                                <Link to="/" className="nav-item nav-link active">
+                                <Link to="/"
+                                    className={`nav-item nav-link ${activeLink === '/' ? 'active' : ''}`}
+                                    onClick={() => handleSetActiveLink('/')}>
                                     Home
                                 </Link>
-                                <Link to="/aboutus" className="nav-item nav-link">
+                                <Link to="/aboutus"
+                                    className={`nav-item nav-link ${activeLink === '/aboutus' ? 'active' : ''}`}
+                                    onClick={() => handleSetActiveLink('/aboutus')}>
                                     About Us
                                 </Link>
 
@@ -99,32 +108,44 @@ const Header = () => {
                                         Diagnostics
                                     </Link>
                                     <div className="dropdown-menu m-0 bg-secondary  rounded-0">
-                                        <Link to="/generalDiagnostic" className="dropdown-item">
+                                        <Link to="/generalDiagnostic"
+                                            className={`dropdown-item ${activeLink === '/generalDiagnostic' ? 'active' : ''}`}
+                                            onClick={() => handleSetActiveLink('/generalDiagnostic')}>
                                             General Diagnostic
                                         </Link>
-                                        <Link to="/cardiologyDiagnostic" className="dropdown-item">
+                                        <Link to="/cardiologyDiagnostic"
+                                            className={`dropdown-item ${activeLink === '/cardiologyDiagnostic' ? 'active' : ''}`}
+                                            onClick={() => handleSetActiveLink('/cardiologyDiagnostic')}>
                                             Cardiology Diagnostic
                                         </Link>
-                                        <Link to="oncologyDiagnostic" className="dropdown-item">
+                                        <Link to="/oncologyDiagnostic"
+                                            className={`dropdown-item ${activeLink === '/oncologyDiagnostic' ? 'active' : ''}`}
+                                            onClick={() => handleSetActiveLink('/oncologyDiagnostic')}>
                                             Oncology Diagnostic
                                         </Link>
 
                                     </div>
                                 </div>
 
-                                <Link to="/biorepository" className="nav-item nav-link">
+                                <Link to="/biorepository"
+                                    className={`nav-item nav-link ${activeLink === '/biorepository' ? 'active' : ''}`}
+                                    onClick={() => handleSetActiveLink('/biorepository')}>
                                     Biorepository
                                 </Link>
-                                <Link to="/oncologyDrugs" className="nav-item nav-link">
+                                <Link to="/oncologyDrugs" className={`nav-item nav-link ${activeLink === '/oncologyDrugs' ? 'active' : ''}`}
+                                    onClick={() => handleSetActiveLink('/oncologyDrugs')}>
                                     Oncology Drugs
                                 </Link>
-                                <Link to="/accreditations" className="nav-item nav-link">
+                                <Link to="/accreditations" className={`nav-item nav-link ${activeLink === '/accreditations' ? 'active' : ''}`}
+                                    onClick={() => handleSetActiveLink('/accreditations')}>
                                     Accreditations
                                 </Link>
-                                <Link to="/resources" className="nav-item nav-link">
+                                <Link to="/resources" className={`nav-item nav-link ${activeLink === '/resources' ? 'active' : ''}`}
+                                    onClick={() => handleSetActiveLink('/resources')}>
                                     Resources
                                 </Link>
-                                <Link to="/contactus" className="nav-item nav-link">
+                                <Link to="/contactus" className={`nav-item nav-link ${activeLink === '/contactus' ? 'active' : ''}`}
+                                    onClick={() => handleSetActiveLink('/contactus')}>
                                     Contact Us
                                 </Link>
                             </div>
