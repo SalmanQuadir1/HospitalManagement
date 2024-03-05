@@ -57,7 +57,7 @@ const Aboutus = () => {
                                 <a href="#">
                                     <div className="rounded-circle border border-2 border-primary overflow-hidden">
                                         <img
-                                            src="img/footer-2.jpg"
+                                            src="img/user.png"
                                             className="img-zoomin img-fluid rounded-circle w-100"
                                             alt=""
                                         />
@@ -84,7 +84,7 @@ const Aboutus = () => {
                                 <a href="#">
                                     <div className="rounded-circle border border-2 border-primary overflow-hidden">
                                         <img
-                                            src="img/footer-2.jpg"
+                                            src="img/user.png"
                                             className="img-zoomin img-fluid rounded-circle w-100"
                                             alt=""
                                         />
@@ -111,7 +111,7 @@ const Aboutus = () => {
                                 <a href="#">
                                     <div className="rounded-circle border border-2 border-primary overflow-hidden">
                                         <img
-                                            src="img/footer-2.jpg"
+                                            src="img/user.png"
                                             className="img-zoomin img-fluid rounded-circle w-100"
                                             alt=""
                                         />
@@ -138,7 +138,7 @@ const Aboutus = () => {
                                 <a href="#">
                                     <div className="rounded-circle border border-2 border-primary overflow-hidden">
                                         <img
-                                            src="img/footer-2.jpg"
+                                            src="img/user.png"
                                             className="img-zoomin img-fluid rounded-circle w-100"
                                             alt=""
                                         />
