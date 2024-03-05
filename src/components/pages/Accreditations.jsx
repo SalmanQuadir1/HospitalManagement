@@ -1,4 +1,5 @@
 import React from 'react'
+import './Diagnostic/oncology.css'
 
 const Accreditations = () => {
     return (
@@ -46,14 +47,14 @@ const Accreditations = () => {
                     <div className="col-lg-12 col-xl-12 mb-3">
                         <div className="footer-item-4 gap-4">
 
-                            <div className="row g-2 bg-light rounded">
+                            <div className="row g-2 bg-light rounded acc-icons">
 
                                 <p className="mb-0 text-capitalize p-4">
                                     These awards illustrate our commitment to providing new solutions and exceptional patient care.
                                 </p>
 
                                 <div className="col-2">
-                                    <div className="rounded overflow-hidden p-5">
+                                    <div className="rounded overflow-hidden p-5 acc-icon1">
                                         <img
                                             src="img/promoters/limca.png"
                                             className="img-zoomin img-fluid rounded w-100"
@@ -62,7 +63,7 @@ const Accreditations = () => {
                                     </div>
                                 </div>
                                 <div className="col-2">
-                                    <div className="rounded overflow-hidden p-5">
+                                    <div className="rounded overflow-hidden p-5 acc-icon2">
                                         <img
                                             src="img/promoters/extr.png"
                                             className="img-zoomin img-fluid rounded w-100"
@@ -71,7 +72,7 @@ const Accreditations = () => {
                                     </div>
                                 </div>
                                 <div className="col-2">
-                                    <div className="rounded overflow-hidden p-5">
+                                    <div className="rounded overflow-hidden p-5 acc-icon3">
                                         <img
                                             src="img/promoters/risingstars.png"
                                             className="img-zoomin img-fluid rounded w-100"
@@ -80,7 +81,7 @@ const Accreditations = () => {
                                     </div>
                                 </div>
                                 <div className="col-2">
-                                    <div className="rounded overflow-hidden mt-4 p-4">
+                                    <div className="rounded overflow-hidden mt-4 p-4 acc-icon4">
                                         <img
                                             src="img/promoters/idma.jpg"
                                             className="img-zoomin img-fluid rounded w-100"
@@ -89,7 +90,7 @@ const Accreditations = () => {
                                     </div>
                                 </div>
                                 <div className="col-2">
-                                    <div className="rounded overflow-hidden mt-5 p-4 ">
+                                    <div className="rounded overflow-hidden mt-5 p-4 acc-icon5 ">
                                         <img
                                             src="img/promoters/pharmexil.png"
                                             className="img-zoomin img-fluid rounded w-100"

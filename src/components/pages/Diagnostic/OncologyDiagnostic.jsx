@@ -3,7 +3,7 @@ import './oncology.css';
 const OncologyDiagnostic = () => {
     return (
         <>
-            <div className="container p-3 rounded mb-5">
+            <div className="container-fluid p-3 rounded mb-5">
                 <div className='header-title text-center my-4 mx-2 p-4 bg-light rounded-lg'>
                     <h2 className='text-dark'>Oncology Diagnostic</h2>
                 </div>

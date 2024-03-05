@@ -7,6 +7,8 @@
     border: none !important;
     box-shadow: 2px 2px 10px;
     background-color: rgb(57, 110, 190) !important;
+    margin-left: 1rem;
+    margin-right: 1rem;
 
 }
 
@@ -28,9 +30,7 @@
 
 }
 
-.col {
-    width: 13% !important;
-}
+
 
 .card1 {
     height: 6rem;
@@ -43,6 +43,8 @@
     border: none !important;
     box-shadow: 2px 2px 10px;
     font-size: 12px;
+    margin-left: 1rem;
+    margin-right: 1rem;
 
 }
 
@@ -106,6 +108,10 @@
     .card5 {
         flex-basis: calc(30% - 20px);
     }
+
+    /* .col {
+        width: 13% !important;
+    } */
 }
 
 .genTable tr th {
@@ -136,12 +142,54 @@
 @media only screen and (max-width: 768px) {
     .row-onc {
         flex-wrap: nowrap;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
+        /* overflow-x: auto;
+        -webkit-overflow-scrolling: touch; */
     }
 
     .col-onc {
         flex: 0 0 auto;
-        max-width: none;
+        /* max-width: none; */
+    }
+
+    .col-oncDrugs {
+        width: 100% !important;
+    }
+
+    .roe {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .acc-icons {
+        margin: 0 !important;
+        padding: 0 !important;
+        padding-left: 10% !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .acc-icon1,
+    .acc-icon2,
+    .acc-icon3,
+    .acc-icon4,
+    .acc-icon5 {
+        display: flex;
+        justify-content: center;
+        padding: 0 !important;
+    }
+
+    .acc-icon5 {
+        padding-bottom: 1em !important;
+    }
+
+    .directors-card {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .directors-card1 {
+        width: 100% !important;
     }
 }

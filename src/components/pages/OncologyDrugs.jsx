@@ -51,8 +51,8 @@ const OncologyDrugs = () => {
                     );
                 })}
             </div>
-            <div className="row bg-light p-4 rounded mb-4 gap-3">
-                <div className="col bg-white shadow py-3 rounded">
+            <div className="row  roe bg-light p-3 rounded mb-4 gap-4 ">
+                <div className="col col-oncDrugs bg-white shadow py-3 rounded">
                     <table className="table table-striped">
                         <tbody>
                             {leftColumn.map((drug, index) => (
@@ -65,7 +65,7 @@ const OncologyDrugs = () => {
                         </tbody>
                     </table>
                 </div>
-                <div className="col bg-white shadow py-3 rounded">
+                <div className="col col-oncDrugs bg-white shadow py-3 rounded">
                     <table className="table table-striped">
                         <tbody>
                             {rightColumn.map((drug, index) => (

@@ -1,11 +1,18 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const Header = () => {
     const [activeLink, setActiveLink] = useState('');
+    const [isActive, setIsActive] = useState(false);
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [isActive])
 
     const handleSetActiveLink = (link) => {
         setActiveLink(link);
+        setIsActive(!isActive);
+
     };
 
     return (
@@ -34,7 +41,7 @@ const Header = () => {
                         </div>
                         <div className="top-link flex-lg-wrap">
                             <i className="fas fa-calendar-alt text-white border-end border-secondary pe-2 me-2">
-                                {" "}
+
                                 <span className="text-body">Tuesday, Sep 12, 2024</span>
                             </i>
                             <div className="d-flex icon">
@@ -67,7 +74,7 @@ const Header = () => {
             </div>
             <div className="container-fluid bg-light">
                 <div className="container px-0">
-                    <nav className="navbar navbar-light navbar-expand-xl">
+                    <nav className={`navbar navbar-light navbar-expand-xl`}>
                         <Link to="/" className="navbar-brand mt-3">
                             <p className="text-primary display-6 mb-2" style={{ lineHeight: 0 }}>
                                 X - Y - Z
@@ -79,13 +86,14 @@ const Header = () => {
                         <button
                             className="navbar-toggler py-2 px-3"
                             type="button"
+                            onClick={() => handleSetActiveLink("")}
                             data-bs-toggle="collapse"
                             data-bs-target="#navbarCollapse"
                         >
                             <span className="fa fa-bars text-primary" />
                         </button>
                         <div
-                            className="collapse navbar-collapse bg-light py-3"
+                            className={`collapse navbar-collapse bg-light py-3 ${isActive ? 'show' : ''}`}
                             id="navbarCollapse"
                         >
                             <div className="navbar-nav mx-auto border-top">
@@ -95,8 +103,10 @@ const Header = () => {
                                     Home
                                 </Link>
                                 <Link to="/aboutus"
-                                    className={`nav-item nav-link ${activeLink === '/aboutus' ? 'active' : ''}`}
-                                    onClick={() => handleSetActiveLink('/aboutus')}>
+
+                                    className={`nav-item nav-link ${activeLink === '/aboutus' ? 'active' : ''} `}
+                                    onClick={() => handleSetActiveLink('/aboutus')}
+                                >
                                     About Us
                                 </Link>
 
@@ -154,8 +164,8 @@ const Header = () => {
                         </div>
                     </nav>
                 </div>
-            </div>
-        </div>
+            </div >
+        </div >
 
     )
 }

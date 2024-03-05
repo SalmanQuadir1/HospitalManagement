@@ -1,6 +1,7 @@
 
 
 import React from 'react';
+import './Diagnostic/oncology.css'
 
 const Aboutus = () => {
     return (
@@ -33,7 +34,7 @@ const Aboutus = () => {
                                 <h5 className="mb-2 text-capitalize">MISSION</h5>
                                 <div className="row g-4">
                                     <div className="col-12">
-                                        <p className="mb-0 text-capitalize">
+                                        <p className="mb-0 text-capitalize text-justify">
                                             To emerge as a leading generic manufacturer and marketer, providing high-quality chemotherapy and supportive medications at an affordable cost accessible to all.
 
                                         </p>
@@ -46,13 +47,13 @@ const Aboutus = () => {
 
                 </div>
 
-                <div className=" bg-light rounded p-4  mt-5 row">
+                <div className=" bg-light rounded p-4  directors-card mt-5 row">
                     <h3 className='text-capitalize'>Board of Directors</h3>
 
                     <div className="col-lg-6 col-xl-3">
 
                         <div className="d-flex flex-row">
-                            <div className="d-flex align-items-center bg-white p-3 rounded">
+                            <div className="d-flex align-items-center bg-white p-3 rounded mb-2 directors-card1">
                                 <a href="#">
                                     <div className="rounded-circle border border-2 border-primary overflow-hidden">
                                         <img
@@ -79,7 +80,7 @@ const Aboutus = () => {
                     <div className="col-lg-6 col-xl-3">
 
                         <div className="d-flex flex-row">
-                            <div className="d-flex align-items-center bg-white p-3 rounded">
+                            <div className="d-flex align-items-center bg-white p-3 rounded mb-2 directors-card1">
                                 <a href="#">
                                     <div className="rounded-circle border border-2 border-primary overflow-hidden">
                                         <img
@@ -106,7 +107,7 @@ const Aboutus = () => {
                     <div className="col-lg-6 col-xl-3">
 
                         <div className="d-flex flex-row">
-                            <div className="d-flex align-items-center bg-white p-3 rounded">
+                            <div className="d-flex align-items-center bg-white p-3 rounded mb-2 directors-card1">
                                 <a href="#">
                                     <div className="rounded-circle border border-2 border-primary overflow-hidden">
                                         <img
@@ -133,7 +134,7 @@ const Aboutus = () => {
                     <div className="col-lg-6 col-xl-3">
 
                         <div className="d-flex flex-row">
-                            <div className="d-flex align-items-center bg-white  p-3 rounded">
+                            <div className="d-flex align-items-center bg-white  p-3 rounded mb-2 directors-card1">
                                 <a href="#">
                                     <div className="rounded-circle border border-2 border-primary overflow-hidden">
                                         <img
