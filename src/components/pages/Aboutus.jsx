@@ -2,6 +2,7 @@
 
 import React from 'react';
 import './Diagnostic/oncology.css'
+import { Link } from 'react-router-dom';
 
 const Aboutus = () => {
     return (
@@ -54,7 +55,7 @@ const Aboutus = () => {
 
                         <div className="d-flex flex-row">
                             <div className="d-flex align-items-center bg-white p-3 rounded mb-2 directors-card1">
-                                <a href="#">
+                                <Link to="#">
                                     <div className="rounded-circle border border-2 border-primary overflow-hidden">
                                         <img
                                             src="img/user.png"
@@ -62,12 +63,12 @@ const Aboutus = () => {
                                             alt=""
                                         />
                                     </div>
-                                </a>
+                                </Link>
                                 <div className="d-flex flex-column ps-4 ">
 
-                                    <a href="#" className="h6 text-dark">
+                                    <Link to="#" className="h6 text-dark">
                                         Josh Gates
-                                    </a>
+                                    </Link>
                                     <small className="text-dark d-block">
                                         <i className="fas fa-user me-1" /> CEO
                                     </small>
@@ -81,7 +82,7 @@ const Aboutus = () => {
 
                         <div className="d-flex flex-row">
                             <div className="d-flex align-items-center bg-white p-3 rounded mb-2 directors-card1">
-                                <a href="#">
+                                <Link href="#">
                                     <div className="rounded-circle border border-2 border-primary overflow-hidden">
                                         <img
                                             src="img/user.png"
@@ -89,12 +90,12 @@ const Aboutus = () => {
                                             alt=""
                                         />
                                     </div>
-                                </a>
+                                </Link>
                                 <div className="d-flex flex-column ps-4 ">
 
-                                    <a href="#" className="h6 text-dark">
+                                    <Link href="#" className="h6 text-dark">
                                         Josh Gates
-                                    </a>
+                                    </Link>
                                     <small className="text-dark d-block">
                                         <i className="fas fa-user me-1" /> Director
                                     </small>
@@ -108,7 +109,7 @@ const Aboutus = () => {
 
                         <div className="d-flex flex-row">
                             <div className="d-flex align-items-center bg-white p-3 rounded mb-2 directors-card1">
-                                <a href="#">
+                                <Link href="#">
                                     <div className="rounded-circle border border-2 border-primary overflow-hidden">
                                         <img
                                             src="img/user.png"
@@ -116,12 +117,12 @@ const Aboutus = () => {
                                             alt=""
                                         />
                                     </div>
-                                </a>
+                                </Link>
                                 <div className="d-flex flex-column ps-4 ">
 
-                                    <a href="#" className="h6 text-dark">
-                                        Josh Gates
-                                    </a>
+                                    <Link href="#" className="h6 text-dark">
+                                        Ayoub Gates
+                                    </Link>
                                     <small className="text-dark d-block">
                                         <i className="fas fa-user me-1" /> CTO
                                     </small>
@@ -135,7 +136,7 @@ const Aboutus = () => {
 
                         <div className="d-flex flex-row">
                             <div className="d-flex align-items-center bg-white  p-3 rounded mb-2 directors-card1">
-                                <a href="#">
+                                <Link href="#">
                                     <div className="rounded-circle border border-2 border-primary overflow-hidden">
                                         <img
                                             src="img/user.png"
@@ -143,12 +144,12 @@ const Aboutus = () => {
                                             alt=""
                                         />
                                     </div>
-                                </a>
+                                </Link>
                                 <div className="d-flex flex-column ps-4 ">
 
-                                    <a href="#" className="h6 text-dark">
+                                    <Link href="#" className="h6 text-dark">
                                         Josh Gates
-                                    </a>
+                                    </Link>
                                     <small className="text-dark d-block">
                                         <i className="fas fa-user me-1" />HR
                                     </small>

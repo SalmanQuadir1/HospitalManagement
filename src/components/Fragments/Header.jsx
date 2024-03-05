@@ -77,10 +77,10 @@ const Header = () => {
                     <nav className={`navbar navbar-light navbar-expand-xl`}>
                         <Link to="/" className="navbar-brand mt-3">
                             <p className="text-primary display-6 mb-2" style={{ lineHeight: 0 }}>
-                                X - Y - Z
+                                SPINELLE
                             </p>
-                            <small className="text-body fw-normal" style={{ letterSpacing: 12 }}>
-                                HOSPITAL
+                            <small className="text-body fw-normal" style={{ letterSpacing: 24 }}>
+                                HEALTH
                             </small>
                         </Link>
                         <button

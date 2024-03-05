@@ -14,15 +14,15 @@ const Footer = () => {
                         >
                             <div className="row g-4">
                                 <div className="col-lg-3">
-                                    <a to="#" className="d-flex flex-column flex-wrap">
-                                        <p className="text-white mb-0 display-6">X-Y-Z</p>
+                                    <Link to="#" className="d-flex flex-column flex-wrap">
+                                        <p className="text-primary mb-0 display-6">SPINELLE</p>
                                         <small
                                             className="text-light"
-                                            style={{ letterSpacing: 11, lineHeight: 0 }}
+                                            style={{ letterSpacing: 27, lineHeight: 0 }}
                                         >
                                             HEALTH
                                         </small>
-                                    </a>
+                                    </Link>
                                 </div>
                                 {/* <div className="col-lg-9">
                                     <div className="d-flex position-relative rounded-pill overflow-hidden">
