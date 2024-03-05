@@ -80,7 +80,7 @@ const Header = () => {
                                 SPINELLE
                             </p>
                             <small className="text-body fw-normal" style={{ letterSpacing: 24 }}>
-                                HEALTH
+
                             </small>
                         </Link>
                         <button
