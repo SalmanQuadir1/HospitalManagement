@@ -121,7 +121,7 @@ const Aboutus = () => {
                                 <div className="d-flex flex-column ps-4 ">
 
                                     <Link href="#" className="h6 text-dark">
-                                        Ayoub Gates
+                                        Josh Gates
                                     </Link>
                                     <small className="text-dark d-block">
                                         <i className="fas fa-user me-1" /> CTO
