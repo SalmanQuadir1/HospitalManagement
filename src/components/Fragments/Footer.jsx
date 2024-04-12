@@ -206,7 +206,6 @@ const Footer = () => {
                             </div>
                             <div className="col-md-6 my-auto text-center text-md-end text-white">
                                 Developed and designed by ASTE
-
                             </div>
                         </div>
                     </div>

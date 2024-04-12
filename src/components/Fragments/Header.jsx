@@ -102,13 +102,31 @@ const Header = () => {
                                     onClick={() => handleSetActiveLink('/')}>
                                     Home
                                 </Link>
-                                <Link to="/aboutus"
+                                <div className="nav-item dropdown">
+                                    <Link
+                                        href="#"
+                                        className="nav-link dropdown-toggle"
+                                        data-bs-toggle="dropdown"
+                                    >
+                                        About
+                                    </Link>
+                                    <div className="dropdown-menu m-0 bg-secondary  rounded-0">
+                                        <Link to="/aboutus"
+                                            className={`dropdown-item ${activeLink === '/aboutus' ? 'active' : ''}`}
+                                            onClick={() => handleSetActiveLink('/aboutus')}>
+                                            About us
+                                        </Link>
+                                        <Link to="/ourcenters"
+                                            className={`dropdown-item ${activeLink === '/ourcenters' ? 'active' : ''}`}
+                                            onClick={() => handleSetActiveLink('/ourcenters')}>
+                                            Our Centers
+                                        </Link>
 
-                                    className={`nav-item nav-link ${activeLink === '/aboutus' ? 'active' : ''} `}
-                                    onClick={() => handleSetActiveLink('/aboutus')}
-                                >
-                                    About Us
-                                </Link>
+
+                                    </div>
+                                </div>
+
+
 
                                 <div className="nav-item dropdown">
                                     <Link

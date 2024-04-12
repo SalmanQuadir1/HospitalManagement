@@ -5,7 +5,6 @@ import { publickey, service_id, template_id } from '../utils/constants';
 const Contactus = () => {
 
     const form = useRef();
-    console.log("form...", form);
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -73,6 +72,7 @@ const Contactus = () => {
                                                 className="w-100 form-control border-0 py-3"
                                                 name="email"
                                                 placeholder="Enter Your Email"
+                                                required
                                             />
                                         </div>
                                         <div className="col-lg-6">
@@ -81,6 +81,7 @@ const Contactus = () => {
                                                 className="w-100 form-control border-0 py-3"
                                                 name="phone"
                                                 placeholder="Enter Your Phone"
+                                                required
                                             />
                                         </div>
                                         <div className="col-lg-6">
@@ -89,6 +90,7 @@ const Contactus = () => {
                                                 className="w-100 form-control border-0 py-3"
                                                 name="subject"
                                                 placeholder="Subject"
+                                                required
                                             >
                                                 <option value="">Select Hospital Location</option>
                                                 <option value="">Location 1</option>
@@ -99,6 +101,7 @@ const Contactus = () => {
 
                                         <div className="col-12">
                                             <textarea
+                                                required
                                                 className="w-100 form-control border-0"
                                                 rows={6}
                                                 cols={10}

@@ -14,6 +14,7 @@ import GeneralDiagnostic from './components/pages/Diagnostic/GeneralDiagnostic';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import './App.css';
+import Ourcenters from './components/pages/Ourcenters';
 
 
 const App = () => {
@@ -30,6 +31,10 @@ const App = () => {
         {
           path: "aboutus",
           element: <Aboutus />,
+        },
+        {
+          path: "ourcenters",
+          element: <Ourcenters />,
         },
 
         {
