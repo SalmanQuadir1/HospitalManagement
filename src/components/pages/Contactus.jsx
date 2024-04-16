@@ -37,10 +37,7 @@ const Contactus = () => {
                                         XYZ Pharma
                                     </h6>
                                     <p className="mb-2 text-capitalize mb-3  shadow-lg card border-0  bg-white p-3 rounded">
-                                        Eunos,sector-5 , AVE 7<br />
-                                        Singapore -702374<br />
-                                        +65 82388027<br />
-                                        info@xyz.com.sg<br />
+                                        228 Changi Rd,<br /> #01-01 El Bayan Institute,<br /> Singapore , 419741<br />
                                         Timings:09:00am to 05:00pm<br />(Except Sunday and Holiday)
 
                                     </p>
@@ -48,7 +45,7 @@ const Contactus = () => {
                                     <div className="rounded">
 
                                         <iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.032816664312!2d103.87721745541992!3d1.320831500000025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1908969b43ed%3A0x4f9b7f16c98d6652!2sEunos%20Industrial%20Estate!5e0!3m2!1sen!2sin!4v1709104582011!5m2!1sen!2sin"
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.763945295033!2d103.90210147410447!3d1.317249961681566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19195225f763%3A0xe8bf828230fa66d1!2sEl%20Bayan%20Institute!5e0!3m2!1sen!2sin!4v1712898962288!5m2!1sen!2sin"
                                             className="rounded w-100"
                                             style={{ height: 300 }}
                                             title='map' allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
@@ -137,7 +134,7 @@ const Contactus = () => {
                                         <i className="fas fa-map-marker-alt fa-2x text-primary me-4" />
                                         <div>
                                             <h4>Address</h4>
-                                            <p className="mb-0"> Eunos,Sector-5,Singapore</p>
+                                            <p className="mb-0">El Bayan Institute,Singapore </p>
                                         </div>
                                     </div>
                                 </div>
