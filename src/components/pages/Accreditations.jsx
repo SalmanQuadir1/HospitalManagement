@@ -16,7 +16,7 @@ const Accreditations = () => {
                                 <div className="row g-4">
                                     <div className="col-12">
                                         <p className="mb-0 text-capitalize">
-                                            XYZ COMPANY has garnered numerous accolades, certifications, and affiliations, solidifying its standing as a prominent player in the healthcare industry.
+                                            Spinelle has garnered numerous accolades, certifications, and affiliations, solidifying its standing as a prominent player in the healthcare industry.
                                         </p>
                                     </div>
                                 </div>
@@ -32,7 +32,7 @@ const Accreditations = () => {
                                     <div className="col-12">
                                         <div className="col-12">
                                             <p className="mb-0 text-capitalize">
-                                                XYZ COMPANY also has a broad network of memberships with prestigious industry associations, fostering collaboration and promoting advancements in healthcare.
+                                                Spinelle also has a broad network of memberships with prestigious industry associations, fostering collaboration and promoting advancements in healthcare.
                                             </p>
                                         </div>
                                     </div>

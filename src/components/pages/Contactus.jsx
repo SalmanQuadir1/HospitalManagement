@@ -36,7 +36,7 @@ const Contactus = () => {
                                     <h6 className="mb-4 p-2">
                                         XYZ Pharma
                                     </h6>
-                                    <p className="mb-2 text-capitalize mb-3  shadow-lg card border-0  bg-white p-3 rounded">
+                                    <p className="mb-2 text-capitalize mb-3  shadow-lg card border-0  bg-white p-3 rounded ">
                                         228 Changi Rd,<br /> #01-01 El Bayan Institute,<br /> Singapore , 419741<br />
                                         Timings:09:00am to 05:00pm<br />(Except Sunday and Holiday)
 
@@ -143,7 +143,7 @@ const Contactus = () => {
                                         <i className="fas fa-envelope fa-2x text-primary me-4" />
                                         <div>
                                             <h4>Mail Us</h4>
-                                            <p className="mb-0">info@XYZ.com.sg</p>
+                                            <p className="mb-0">info@spinelle.com.sg</p>
                                         </div>
                                     </div>
                                 </div>

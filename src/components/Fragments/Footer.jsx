@@ -52,7 +52,7 @@ const Footer = () => {
                                             Singapore , 419741</span>
                                     </p>
                                     <p className="text-secondary line-h">
-                                        Email: <span className="text-white">info@xyz.com.sg</span>
+                                        Email: <span className="text-white">info@spinelle.com.sg</span>
                                     </p>
                                     <p className="text-secondary line-h">
                                         Phone: <span className="text-white">+65 82388027</span>
@@ -177,7 +177,7 @@ const Footer = () => {
                                         <i className="fas fa-angle-right text-white me-2" /> Colloboration
                                     </Link>
                                     <Link className="btn-link text-white" to="">
-                                        <i className="fas fa-angle-right text-white me-2" /> Life At XYZ
+                                        <i className="fas fa-angle-right text-white me-2" /> Life At Spinelle
                                     </Link>
                                     <Link className="btn-link text-white" to="">
                                         <i className="fas fa-angle-right text-white me-2" /> Know About Cancer
@@ -201,7 +201,7 @@ const Footer = () => {
                                 <span className="text-light">
                                     <Link to="#">
                                         <i className="fas fa-copyright text-light me-2" />
-                                        ASTE
+                                        Spinelle
                                     </Link>
                                     , All right reserved.
                                 </span>

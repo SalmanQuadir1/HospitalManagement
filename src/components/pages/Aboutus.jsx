@@ -169,8 +169,8 @@ const Aboutus = () => {
                                 <div className="row g-4">
                                     <div className="col-12">
                                         <p className="mb-0 text-capitalize">
-                                            We at XYZ Company have a vision to make affordable cancer chemo and supportive therapy available to the poorest of the poor of this world. And to some extent, we are there. Supporting cancer survivors in terms of adding YEARS to their life and adding LIFE to their years by augmenting their quality of life post-cancer.
-                                            We at XYZ Pharma achieve this through manufacturing the products at our latest GMP certified plant in India and our countrywide network of dedicated field force and distributors. XYZ today is amongst the most trusted suppliers to most of the eminent public and private sector hospitals and institutions.
+                                            We at Spinelle have a vision to make affordable cancer chemo and supportive therapy available to the poorest of the poor of this world. And to some extent, we are there. Supporting cancer survivors in terms of adding YEARS to their life and adding LIFE to their years by augmenting their quality of life post-cancer.
+                                            We at spinelle achieve this through manufacturing the products at our latest GMP certified plant in India and our countrywide network of dedicated field force and distributors. Spinelle today is amongst the most trusted suppliers to most of the eminent public and private sector hospitals and institutions.
                                             Countries other than the US and Europe and most of the underdeveloped or developing nations look forward to India for supplementing their medical needs because of a wide price disparity. India today is considered as the Pharmacy of the world.
 
                                         </p>

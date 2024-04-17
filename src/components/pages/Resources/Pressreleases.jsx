@@ -9,7 +9,7 @@ const Pressreleases = () => {
                     <div className="row g-4">
                         <div className="col-12">
                             <div className="d-flex justify-content-between">
-                                <h5 className='text-uppercase'>XYZ Participated in cancer walk rally</h5>
+                                <h5 className='text-uppercase'>Spinelle Participated in cancer walk rally</h5>
                                 <a href="#" className="link-hover text-body fs-6">
                                     <i className="fas fa-long-arrow-alt-right me-1" /> Read more
                                 </a>
@@ -18,7 +18,7 @@ const Pressreleases = () => {
                                 <i className="fas fa-calendar-alt me-1" /> Dec 9, 2024
                             </small>
                             <p className="mb-0 text-capitalize">
-                                XYZ company  successfully participated and happy to take part with leading sponsorship in cancer awarness social...
+                                Spinelle company  successfully participated and happy to take part with leading sponsorship in cancer awarness social...
                             </p>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ const Pressreleases = () => {
                                 <i className="fas fa-calendar-alt me-1" /> Dec 9, 2024
                             </small>
                             <p className="mb-0 text-capitalize">
-                                XYZ company  is back with the second edition of its cancer awareness drive,The pink street campaign...
+                                Spinelle company  is back with the second edition of its cancer awareness drive,The pink street campaign...
                             </p>
                         </div>
                     </div>
