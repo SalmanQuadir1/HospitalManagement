@@ -48,7 +48,7 @@ const Footer = () => {
                                     <h4 className="mb-4 text-white">Get In Touch</h4>
                                     <p className="text-secondary line-h">
                                         Address: <span className="text-white">228 Changi Rd,<br />
-                                            #01-01 El Bayan Institute,<br />
+                                            El Bayan Institute,<br />
                                             Singapore , 419741</span>
                                     </p>
                                     <p className="text-secondary line-h">

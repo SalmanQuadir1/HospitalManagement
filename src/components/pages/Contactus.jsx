@@ -37,7 +37,7 @@ const Contactus = () => {
                                         Spinelle
                                     </h6>
                                     <p className="mb-2 text-capitalize mb-3  shadow-lg card border-0  bg-white p-3 rounded ">
-                                        228 Changi Rd,<br /> #01-01 El Bayan Institute,<br /> Singapore , 419741<br />
+                                        228 Changi Rd,<br />El Bayan Institute,<br /> Singapore , 419741<br />
                                         Timings:09:00am to 05:00pm<br />(Except Sunday and Holiday)
 
                                     </p>
