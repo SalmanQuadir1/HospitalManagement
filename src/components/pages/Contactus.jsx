@@ -34,7 +34,7 @@ const Contactus = () => {
                             <div className="col-lg-5">
                                 <div className="">
                                     <h6 className="mb-4 p-2">
-                                        XYZ Pharma
+                                        Spinelle Healthcare
                                     </h6>
                                     <p className="mb-2 text-capitalize mb-3  shadow-lg card border-0  bg-white p-3 rounded ">
                                         228 Changi Rd,<br /> #01-01 El Bayan Institute,<br /> Singapore , 419741<br />
