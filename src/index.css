@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media (min-width: 100px) {
+  .center-1 {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .iframe_mobile {
+    width: 100%
+  }
+}
