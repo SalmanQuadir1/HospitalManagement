@@ -1,56 +1,54 @@
 .pre-scrollable {
-    max-height: 400px;
-    overflow-y: scroll;
+  max-height: 400px;
+  overflow-y: scroll;
 }
 
-.Header-icons>a {
-    justify-content: center;
-    color: white !important;
+.Header-icons > a {
+  justify-content: center;
+  color: white !important;
 }
 
 .roundedd {
-    border-radius: 30px !important;
-    font-weight: bold !important;
+  border-radius: 30px !important;
+  font-weight: bold !important;
 }
 
 .roundedd:hover {
-    background-color: #9C6167 !important;
+  background-color: #9c6167 !important;
 }
 
 .site-footer {
-    background-color: #CCC3BC;
+  background-color: #ccc3bc;
 }
 
 .Footer-links {
-    color: #691C32;
-    text-decoration: none;
-    font-size: 13px;
+  color: #691c32;
+  text-decoration: none;
+  font-size: 13px;
 }
 
 .footer-heading {
-    color: #691C32 !important;
-    font-size: 16px !important;
-    font-weight: bold !important;
-    text-decoration: underline;
-
+  color: #691c32 !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  text-decoration: underline;
 }
 
 .owl-carousel {
-    width: 100%;
-    height: 70vh;
+  width: 100%;
+  height: 80vh;
 }
 
 .item {
-    width: 100%;
-    height: 70vh;
-    background-size: cover;
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
 }
 
 .section1-image {
-    width: 70%;
+  width: 70%;
 }
 
 .margins {
-    padding-bottom: 5% !important;
-
+  padding-bottom: 5% !important;
 }

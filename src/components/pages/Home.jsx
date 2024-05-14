@@ -28,11 +28,14 @@ const Home = () => {
             <section className='carousel-section'>
                 <OwlCarousel className='owl-theme'  {...options}>
                     <div className='item'>
-                        <img style={{ height: "400px", width: '100%' }} src="img/hospitalfuture (1).jpg" alt="" />
+                        <img style={{ height: "510px", width: '100%' }} src="img/health.jpg" alt="" />
+                    </div>
+                    <div className='item'>
+                        <img style={{ height: "510px", width: '100%' }} src="img/hospitalfuture (1).jpg" alt="" />
                     </div>
                     <div className='item'>
 
-                        <img style={{ height: "400px", width: '100%' }} src="img/hospt.jpg" alt="" />
+                        <img style={{ height: "510px", width: '100%' }} src="img/hospt.jpg" alt="" />
 
                     </div>
                     {/* <div className='item'>
