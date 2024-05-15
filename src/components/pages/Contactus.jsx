@@ -137,7 +137,7 @@ const Contactus = () => {
                                         <i className="fas fa-map-marker-alt fa-2x text-primary me-4" />
                                         <div>
                                             <h4>Address</h4>
-                                            <p className="mb-0">El Bayan Institute,Singapore </p>
+                                            <p className="mb-0">Aman Medical Centre </p>
                                         </div>
                                     </div>
                                 </div>
