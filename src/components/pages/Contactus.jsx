@@ -37,18 +37,21 @@ const Contactus = () => {
                                         Spinelle
                                     </h6>
                                     <p className="mb-2 text-capitalize mb-3  shadow-lg card border-0  bg-white p-3 rounded ">
-                                        228 Changi Rd,<br />El Bayan Institute,<br /> Singapore , 419741<br />
+                                        228 Changi Rd,<br />Aman Medical Centre Pte Ltd,<br /> Singapore , 419741<br />
                                         Timings:09:00am to 05:00pm<br />(Except Sunday and Holiday)
 
                                     </p>
 
                                     <div className="rounded">
-
-                                        <iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.763945295033!2d103.90210147410447!3d1.317249961681566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19195225f763%3A0xe8bf828230fa66d1!2sEl%20Bayan%20Institute!5e0!3m2!1sen!2sin!4v1712898962288!5m2!1sen!2sin"
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7640913819137!2d103.9045656!3d1.3171586999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1985afb126cf%3A0x50cd4d7ed1341df8!2sAman%20Medical%20Centre%20Pte%20Ltd!5e0!3m2!1sen!2sin!4v1715753674781!5m2!1sen!2sin"
                                             className="rounded w-100"
                                             style={{ height: 300 }}
                                             title='map' allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                                        {/* <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.763945295033!2d103.90210147410447!3d1.317249961681566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19195225f763%3A0xe8bf828230fa66d1!2sEl%20Bayan%20Institute!5e0!3m2!1sen!2sin!4v1712898962288!5m2!1sen!2sin"
+                                            className="rounded w-100"
+                                            style={{ height: 300 }}
+                                            title='map' allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe> */}
                                     </div>
                                 </div>
                             </div>
